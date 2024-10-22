@@ -2,6 +2,7 @@ import Actions from "./components/Actions";
 import Header from "./components/Header";
 import Newsletter from "./components/Newsletter";
 import Profilecard from "./components/Profilecard";
+import Count from "./components/Count";
 // import logo from "./logo.svg";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
      <Newsletter/>
      <Actions/>
      <Profilecard/>
+     <Count/>
     </div>
   );
 }
