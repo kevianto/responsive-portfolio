@@ -9,16 +9,15 @@ import Log from "./components/Log";
 function App() {
   return (
     <div className="bg-slate w-screen flex flex-col items-center gap-6 px-20">
-     <Header/>
-     <Newsletter/>
-     <Log/>
-     <Actions/>
-     <Profilecard/>
-     <Count/>
-     
+      <Header />
+      <Newsletter />
+      
+      <Actions />
+      <Profilecard />
+      <Count />
+      <Log />
     </div>
   );
 }
 
 export default App;
- 
