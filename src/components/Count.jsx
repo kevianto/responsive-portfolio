@@ -31,6 +31,7 @@ function Count() {
       >
         reset
       </button>
+      <button>test('should first', () => { second })</button>
     </div>
   );
 }
