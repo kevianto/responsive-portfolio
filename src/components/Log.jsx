@@ -22,7 +22,7 @@ function Log() {
   }
   return (
     <div className="md:w-[6md:w-[60%] flex flex-col bg-slate-200 gap-5 py-4 px-20%] ">
-      <h1 className="text-red-500 font-extrabold px-4 text-center">LOG IN</h1>
+      <h1 className="text-red-500 font-extrabold px-4 text-center"><strong>LOG IN</strong>LOG IN</h1>
       <div className="md:w-[6md:w-[60%] flex flex-col bg-slate-200 gap-5 py-4 px-4 flex-grow">
         <input
           type="email "

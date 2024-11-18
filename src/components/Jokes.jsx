@@ -11,13 +11,14 @@ function Jokes() {
         method: "GET",
         // body:JSON.stringify({type:"single"})
     });
-    console.log(response)
+    // console.log(response)
     const data= await response.json();
     console.log(data) 
+    setData(data)
   };
   useEffect(()=>{fetchData()})
   return <div>
-
+<p>{data ?.delivery}</p>
   </div>;
 }
 
