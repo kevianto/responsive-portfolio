@@ -23,7 +23,7 @@ function Count() {
         onClick={() => setCounter((prev) => prev + 1)}
         className="bg-blue-500 text-center py-7 rounded-lg text-white"
       >
-        Add count
+        Add counter
       </button>
       <button
         onClick={HandleReturn}

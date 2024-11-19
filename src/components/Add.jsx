@@ -11,7 +11,7 @@ function Add() {
       setPlus(Plus*0);
     }
   return (
-    <div className="bg-yellow-400 py-5 flex-grow gap-6 px-5 flex flex-col" >
+    <div className="bg-yellow-500 py-5 flex-grow gap-6 px-5 flex flex-col" >
         <div className=" bg-slate-50 items-right gap-4 text-right"  >
         <p
         >{Plus}</p>
